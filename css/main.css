@@ -1,0 +1,39 @@
+.head {
+    flex-direction: row;
+    background-color: brown;
+    height: 40px;
+    padding: 20px;
+
+}
+
+.head button {
+    margin-right: 20px;
+    border-radius: 5px;
+    height: 30px;
+    width: 80px;
+}
+
+.head button:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+body {
+    margin: 0px;
+    height: 1000px;
+}
+
+.intro h1 {
+    /* margin-top: 100px;
+    margin-bottom: 460px; */
+    height: 580px;
+    text-align: center;
+}
+
+div {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.projects_intro {
+    text-align: center;
+}
