@@ -23,6 +23,10 @@ body {
     height: 1000px;
 }
 
+.intro {
+    margin: 30px;
+}
+
 a {text-decoration: none;
    color: black;}
 
@@ -84,4 +88,29 @@ div {
 img {
     width: 350px;
     height: 250px;
+}
+
+.blogEntry {
+    border: solid black 1px;
+    border-radius: 3px;
+    min-width: 30px;
+    min-height: 50px;
+    max-width: 300px;
+    max-height: 400px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.blogTitle {
+    margin: 10px;
+}
+
+.blogs {
+    
+}
+
+.blogrow {
+    display: flex;
+    flex-direction: row;
+
 }
