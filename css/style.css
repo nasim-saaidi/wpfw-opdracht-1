@@ -27,10 +27,21 @@ body {
     margin: 30px;
 }
 
+.projectIntro h1 {
+margin: 20px;
+}
+
 .introwrapper {
     display: flex;
     flex-direction: row;
 }
+
+@media (max-width: 480px) {
+    .introwrapper {
+        flex-direction: column;
+    }
+}
+
 
 .selfport img{
     height: 500px;
@@ -87,8 +98,16 @@ div {
 .row {
     flex-direction: row;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
+
+@media (max-width: 480px) {
+    .row {
+        flex-direction: column;
+    };
+    
+}
+
 
 .row div {
     
@@ -101,15 +120,18 @@ img {
     height: 250px;
 }
 
+.row div {
+    width: auto;
+}
+
 .blogEntry {
     border: solid black 1px;
     border-radius: 3px;
-    min-width: 30px;
-    min-height: 50px;
-    max-width: 300px;
-    max-height: 400px;
-    padding: 10px;
-    margin: 20px;
+    min-width: auto;
+    min-height: 80px;
+    max-width: fit-content;
+    padding: auto;
+    margin: 10px;
 }
 
 .blogTitle {
