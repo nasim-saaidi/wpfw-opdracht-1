@@ -27,6 +27,17 @@ body {
     margin: 30px;
 }
 
+.introwrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.selfport img{
+    height: 500px;
+    margin: 100px;
+    height: auto;
+}
+
 a {text-decoration: none;
    color: black;}
 
