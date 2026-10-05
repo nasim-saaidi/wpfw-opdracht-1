@@ -1,5 +1,11 @@
-// console.log("js connected")
+// // console.log("js connected")
+// const projects = document.querySelector(".projectIntro");
+// url = "https://jsonplaceholder.typicode.com/todos/1"
 
+// fetch(url)
+// .then((response) => response.json())
+// .then((data) => console.log(data))
+// .catch((error) => console.log(error));
 
 
 // class calculator {
