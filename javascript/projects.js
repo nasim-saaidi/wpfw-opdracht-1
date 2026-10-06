@@ -4,31 +4,31 @@ const projects = [
     {
     "repo_link": "https://github.com/nasim-saaidi/escape-room",
     "img_alt": "een screenshot van mijn escape room project",
-    "img_src": "/img/escape-room-game.png",
+    "img_src": "/wpfw-opdracht-1/img/escape-room-game.png",
     "description": "op het mbo heb ik samen met een paar klasgenoten een text puzzel game gemaakt"
 },
 {
     "repo_link": "https://github.com/nasim-saaidi/design-portfolio",
     "img_alt" : "een screenshot van mijn oude portfolio project",
-    "img_src": "/img/portfolio.png",
+    "img_src": "/wpfw-opdracht-1/img/portfolio.png",
     "description": "dit is een oudere portfolio die ik gemaakt had op het mbo"
 },
 {
     "repo_link": "https://github.com/nasim-saaidi/tic-tac-toe",
     "img_alt": "een screenshot van mijn boter kaas en eieren project",
-    "img_src": "/img/bke-game.png",
+    "img_src": "/wpfw-opdracht-1/img/bke-game.png",
     "description": "dit is een boter kaas en eieren spel die ik gemaakt had voor een van mijn projecten op school"
 },
 {
     "repo_link": "https://github.com/nasim-saaidi/higher-or-lower",
     "img_alt" : "een screenshot van mijn hoger-lager project",
-    "img_src": "/img/hoger-lager.png",
+    "img_src": "/wpfw-opdracht-1/img/hoger-lager.png",
     "description": "dit is een hoger lager spel die ik voor het mbo had gemaakt. Dit was mijn eerste project"
 },
 {
     "repo_link": "https://github.com/nasim-saaidi/rock-paper-scizzors-part-2",
     "img_alt": "een screenshot van mijn steen papier schaar project",
-    "img_src": "/img/rps.png",
+    "img_src": "/wpfw-opdracht-1/img/rps.png",
     "description": "dit is een steen papier schaar spel die ik in mijn eigen tijd heb gemaakt"
 }
 
