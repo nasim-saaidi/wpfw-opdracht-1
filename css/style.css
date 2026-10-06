@@ -26,6 +26,7 @@ body {
 .quickIntro {
     margin-bottom: 150px;
 }
+
 .intro {
     margin: 30px;
 }
@@ -39,6 +40,9 @@ margin: 20px;
     text-align: center;
     margin: 50px;
 }
+
+
+
 
 .introwrapper {
     display: flex;
@@ -124,6 +128,7 @@ div {
         flex-direction: column;
     };
     
+    
 }
 
 
@@ -136,10 +141,16 @@ div {
  .row img {
     width: 350px;
     height: 250px;
+    justify-content: center;
 } 
 
 .row h3 {
-    width: 350px
+    width: 350px;
+    margin:auto
+}
+
+.projectIntro article {
+    margin-bottom: 100px;
 }
 
 .blogEntry {
@@ -167,4 +178,12 @@ div {
     display: flex;
     flex-direction: column;
 
+}
+
+.contactform {
+    justify-content: center;
+}
+
+.api {
+    font: 30px;
 }

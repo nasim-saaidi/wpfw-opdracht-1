@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <nav class="head">
+        <a class="buttons" href="/index.html">
+            <p>home</p>
+        </a>
+        <a class="buttons" href="/projects.html">
+            <p>projecten</p>
+        </a>
+        <a class="buttons" href="/blog.html">
+            <p>blog</p>
+        </a>
+        <a class="buttons" href="/contact.html">
+            <p>contact</p>
+        </a>
+    </nav>
+
+    <h1>
+        contactformulier
+    </h1>
+    <h2>vul hier jouw contactformulier in en stel mij een vraag!</h2>
+
+    <form id="contact" class="contact" novalidate>
+        
+        <label for="naam">Naam</label>
+        <input id="naam" required minlength="2" aria-describedby="naam-error" aria-invalid="false">
+        <span id="naam-error" role="alert"></span> <br>
+
+        <label for="email">E-mail</label>
+        <input id="email" type="email" required aria-describedby="email-error" aria-invalid="false">
+        <span id="email-error" role="alert"></span><br>
+
+
+        <label for="bericht">voer hier jouw vraag in</label>
+        <textarea id="bericht" required minlength="10" aria-describedby="bericht-error" ariainvalid="false"></textarea>
+        <span id="bericht-error" role="alert"></span><br>
+
+
+        <button type="submit">Versturen</button>
+        <div id="form-status" aria-live="polite"></div>
+    </form>
+
+    <script src="/javascript/form.js"></script>
+</body>
+
+</html>
