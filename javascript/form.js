@@ -14,7 +14,7 @@ function validate(field) {
     const valid = input.checkValidity();
 
     input.setAttribute("aria-invalid", String(!valid));
-    error.textContent = valid ? "" : formsec.message;
+    error.textContent = valid ? "" : field.message;
     return valid;
 }
 

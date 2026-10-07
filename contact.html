@@ -24,31 +24,35 @@
             <p>contact</p>
         </a>
     </nav>
-
+    <div class="form-intro">
     <h1>
         contactformulier
     </h1>
     <h2>vul hier jouw contactformulier in en stel mij een vraag!</h2>
+    </div>
 
     <form id="contact" class="contact" novalidate>
 
-        <label for="naam">Naam</label>
-        <input id="naam" required minlength="2" aria-describedby="naam-error" aria-invalid="false">
+        <label class="label" for="naam">Naam</label> <br>
+        <input class="inputfield" id="naam" required minlength="2" aria-describedby="naam-error" aria-invalid="false">
         <span id="naam-error" role="alert"></span> <br>
 
-        <label for="email">E-mail</label>
-        <input id="email" type="email" required aria-describedby="email-error" aria-invalid="false">
+        <label class="label" for="email">E-mail</label> <br>
+        <input class="inputfield" id="email" type="email" required aria-describedby="email-error" aria-invalid="false">
         <span id="email-error" role="alert"></span><br>
 
 
-        <label for="bericht">voer hier jouw vraag in</label>
-        <textarea id="bericht" required minlength="10" aria-describedby="bericht-error" ariainvalid="false"></textarea>
+        <label class="label" for="bericht">voer hier jouw vraag in</label> <br>
+        <textarea class="inputfield" id="bericht" required minlength="10" aria-describedby="bericht-error" aria-invalid="false"></textarea>
         <span id="bericht-error" role="alert"></span><br>
 
 
-        <button type="submit">Versturen</button>
+        <button class="submitButton" type="submit">Versturen</button>
         <div id="form-status" aria-live="polite"></div>
     </form>
+
+    <footer class="head" id="footer"></footer>
+
 
     <script src="/wpfw-opdracht-1/javascript/form.js"></script>
     <script src="/wpfw-opdracht-1/javascript/api.js"></script>

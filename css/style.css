@@ -53,6 +53,9 @@ margin: 20px;
     .introwrapper {
         flex-direction: column;
     }
+    .head p {
+        font: 10;
+    }
 }
 
 
@@ -184,6 +187,45 @@ div {
     justify-content: center;
 }
 
-.api {
-    font: 30px;
+
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
+
+.inputfield {
+    width: 200px;
+    height: 50px;
+    align-self: center;
+    margin-top: 20px;
+}
+
+.submitButton {
+    align-self: center;
+    padding: 20px;
+}
+
+.form-intro {
+    text-align: center;
+}
+
+.api {
+    color: black;
+    padding-top: 7px;
+}
+
+footer {
+      position: fixed;
+  bottom: 0;
+
+  left: 0;
+  right: 0;
+
+}
+
+body {
+    height: auto;
+}
+

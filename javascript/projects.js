@@ -4,19 +4,19 @@ const projects = [
     {
     "repo_link": "https://github.com/nasim-saaidi/escape-room",
     "img_alt": "een screenshot van mijn escape room project",
-    "img_src": "/wpfw-opdracht-1/img/escape-room-game.png",
+    "img_src": "/wpfw-opdracht-1/img/escape-room-game.png",    
     "description": "op het mbo heb ik samen met een paar klasgenoten een text puzzel game gemaakt"
 },
 {
     "repo_link": "https://github.com/nasim-saaidi/design-portfolio",
     "img_alt" : "een screenshot van mijn oude portfolio project",
-    "img_src": "/wpfw-opdracht-1/img/portfolio.png",
+    "img_src": "/wpfw-opdracht-1/img/portfolio.png",  
     "description": "dit is een oudere portfolio die ik gemaakt had op het mbo"
 },
 {
     "repo_link": "https://github.com/nasim-saaidi/tic-tac-toe",
     "img_alt": "een screenshot van mijn boter kaas en eieren project",
-    "img_src": "/wpfw-opdracht-1/img/bke-game.png",
+    "img_src": "/wpfw-opdracht-1/img/bke-game.png",  
     "description": "dit is een boter kaas en eieren spel die ik gemaakt had voor een van mijn projecten op school"
 },
 {
