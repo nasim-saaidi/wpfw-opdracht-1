@@ -1,4 +1,4 @@
-const url = "https://weerlive.nl/api/weerlive_api_v2.php?key=ec087e38d3&locatie=Denhaag";
+const url = "https://api.open-meteo.com/v1/forecast?latitude=52.0767&longitude=4.2986&current=temperature_2m&timezone=auto";
 const api = document.querySelector(".head");
 
 async function getAPIData() {
@@ -8,7 +8,7 @@ async function getAPIData() {
 
         api.innerHTML += `
 
-            <p>het is ${data.liveweer[0].time} uur, ${data.liveweer[0].temp} graden(voelt als ${data.liveweer[0].gtemp}) in ${data.liveweer[0].plaats}</p>
+            <p>het is ${data.current.time} uur, het is ${data.current.temperature_2m, data.current_units.temperature_2m} graden in den haag}</p>
             
             
         `;
