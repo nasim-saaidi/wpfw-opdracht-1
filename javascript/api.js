@@ -8,7 +8,7 @@ async function getAPIData() {
 
         api.innerHTML += `
 
-            <p>het is ${data.current.time} uurdsfasdf, het is ${data.current.temperature_2m, data.current_units.temperature_2m} graden in den haag}</p>
+            <p>het is ${data.current.time} uurdsfasdf, het is ${data.current.temperature_2m} ${data.current_units.temperature_2m} graden in den haag}</p>
             
             
         `;
