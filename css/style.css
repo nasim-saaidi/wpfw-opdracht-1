@@ -166,6 +166,15 @@ div {
     margin: 10px;
 }
 
+@media (max-width: 430px) {
+    .blogEntry {
+        margin: 0px;
+    }
+    
+    
+}
+
+
 .blogRow {
     display: grid;
     grid-template-columns: repeat(3, auto);
@@ -226,7 +235,4 @@ footer {
 
 }
 
-body {
-    
-}
 
