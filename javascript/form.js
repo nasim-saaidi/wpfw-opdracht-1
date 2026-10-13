@@ -1,5 +1,6 @@
 
 const contactform = document.querySelector("#contact")
+let full = [];
 
 const formsec = [
     { id: "naam", message: "vul min. 2 tekens in" },
@@ -10,6 +11,7 @@ const formsec = [
 
 function validate(field) {
     const input = document.querySelector(`#${field.id}`);
+    full.push(input.value)
     const error = document.querySelector(`#${field.id}-error`);
     const valid = input.checkValidity();
 
@@ -29,7 +31,9 @@ contactform.addEventListener("submit", (event) => {
         return;
     }
     status.textContent = "Bericht verzonden! Bedankt.";
-    form.reset();
+    console.log(full);
+    full = [];
+    contactform.reset();
 
 
 })
