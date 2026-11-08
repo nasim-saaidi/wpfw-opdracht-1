@@ -11,10 +11,8 @@ const formsec = [
 
 function validate(field) {
     const input = document.querySelector(`#${field.id}`);
-    full.push(input.value)
     const error = document.querySelector(`#${field.id}-error`);
     const valid = input.checkValidity();
-
     input.setAttribute("aria-invalid", String(!valid));
     error.textContent = valid ? "" : field.message;
     return valid;
@@ -30,6 +28,8 @@ contactform.addEventListener("submit", (event) => {
         status.textContent = "Er zijn nog fouten in het formulier.";
         return;
     }
+    
+    full = formsec.map(field => document.querySelector(`#${field.id}`).value);
     status.textContent = "Bericht verzonden! Bedankt.";
     console.log(full);
     full = [];
