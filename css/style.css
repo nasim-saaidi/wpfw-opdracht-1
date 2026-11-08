@@ -166,18 +166,20 @@ div {
     margin: 10px;
 }
 
-@media (width <= 430px) {
-    .blogEntry {
-        margin: 0px;
-    }
-    
-    
-}
-
 
 .blogRow {
     display: grid;
     grid-template-columns: repeat(3, auto);
+}
+
+@media (width <= 430px) {
+    .blogEntry {
+        margin: 0px;
+    }
+    .blogRow {
+        grid-template-columns: repeat(1, auto);
+    }
+    
 }
 
 
@@ -235,4 +237,7 @@ footer {
 
 }
 
+.sorting {
+    margin: 20px;
+}
 
